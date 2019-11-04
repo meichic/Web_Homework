@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Latitude Dash</title>
+
+    <link rel="stylesheet" href="bootstrap.min.css" media="screen">
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary" >
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html" id="logo">Latitude</a>
+          
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Plots
+                    <span class="caret"></span></button> 
+                    <ul class="dropdown-menu">
+                        <li><a href="MaxTemp.html">Max Temperature</a></li>
+                        <li><a href="Humidity.html">Humidity</a></li>
+                        <li><a href="">Cloudiness</a></li>
+                        <li><a href="">Wind Speed</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+            
+          <li class="nav-item active">
+            <a class="nav-link" href="comparison.html">Comparison</a>
+          </li>
+            
+          <li class="nav-item active">
+            <a class="nav-link" href="data.html">Data</a>
+          </li>
+
+        </ul>
+      </div> 
+    </div> 
+  </nav>
+
+  <div class="container-fluid">
+    <div class="container">
+    <h1>Comparison: Latitude vs X</h1>
+    <p>Click any plot to get an indepth analysis</p>
+    <hr>
+    </div> 
+
+    <div class="container">
+    <div class="row">
+    
+        <div class="col-sm-6">
+            <h3 class="comparison_headers">vs Max Temperature</h3>
+            <a href="MaxTemp.html"><img src="images/MaxTemp.png" alt="Max Temperature" width="500px" height="500px"></a>
+        </div>
+        
+        <div class="col-sm-6">
+            <h3 class="comparison_headers">vs Wind Speed</h3>
+            <a href=""><img src="images/WindSpeed.png" alt="Wind Speed" width="500px" height="500px"></a>
+        </div>
+
+        <div class="col-sm-6">
+            <h3 class="comparison_headers">vs Humidity</h3>
+            <a href="Humidity.html"><img src="images/Humidity.png" alt="Humidity" width="500px" height="500px"></a>
+        </div>
+        <hr>
+        <div class="col-sm-6">    
+            <h3 class="comparison_headers">vs Cloudiness</h3>
+            <a href=""><img src="images/Cloudiness.png" alt="Cloudiness" width="500px" height="500px"></a>
+        </div>
+
+    </div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+
+  </body>
+</html>
